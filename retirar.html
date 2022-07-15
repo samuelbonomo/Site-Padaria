@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <script src="JS/Vendas.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="IMG/logo.img" alt="">
+            <div id="NomePadaria">
+                <h1>Padaria PaneHaus</h1>
+            </div>
+            <div id="links1"> 
+                <a href="cardapio.html">Cardápio</a><br>
+                <br>
+                <a href="delivery.html">Delivery</a>
+            </div>
+        </header>
+        <main>
+            <h1 id="NomeVendas">Compre aqui</h1>
+            
+            <form action="" method="get" id="Vendas" name="Vendas">
+                <label for="Pao">Pão Francês</label><br>
+                <input type="number" name="Pao" id="Pao" value= 0><br>
+                <label for="Valor1">Valor R$1,00 Unidade</label>
+                <input type="hidden" id="Valor1" name="Valor1" value="1"><br>
+                
+                <label for="PaoDoce">Pão Doce</label><br>
+                <input type="number" name="PaoDoce" id="PaoDoce" value= 0><br>
+                <label for="Valor2">Valor R$10,00 Unidade</label>
+                <input type="hidden" id="Valor2" name="Valor2" value="10"><br>
+
+                <label for="Baguete">Baguete</label><br>
+                <input type="number" name="Baguete" id="Baguete" value= 0><br>
+                <label for="Valor3">Valor R$15,00 Unidade</label>
+                <input type="hidden" id="Valor3" name="Valor3" value="15"><br>
+
+                <label for="Cafe">Café Expresso</label><br>
+                <input type="number" name="Cafe" id="Cafe" value= 0><br>
+                <label for="Valor4">Valor R$4,00</label>
+                <input type="hidden" id="Valor4" name="Valor4" value="4"><br>
+
+                <label for="CafeLeite">Café com Leite</label><br>
+                <input type="number" name="CafeLeite" id="CafeLeite" value= 0><br>
+                <label for="Valor5">Valor R$5,00</label>
+                <input type="hidden" id="Valor5" name="Valor5" value="5"><br>
+
+                <label for="Capuccino">Capuccino</label><br>
+                <input type="number" name="Capuccino" id="Capuccino" value= 0><br>
+                <label for="Valor6">Valor R$6,00</label>
+                <input type="hidden" id="Valor6" name="Valor6" value="6"><br>
+
+                <label for="Chocolate">Chocolate</label><br>
+                <input type="number" name="Chocolate" id="Chocolate" value= 0><br>
+                <label for="Valor7">Valor R$6,00</label>
+                <input type="hidden" id="Valor7" name="Valor7" value="6"><br>
+
+                <div id="Produtos">
+                    <label for="Cha">Chá(Diversos sabores)</label><br>
+                    <input type="number" name="Cha" id="Cha" value= 0><br>
+                    <label for="Valor8">Valor R$5,00</label>
+                    <input type="hidden" id="Valor8" name="Valor8" value="5"><br>
+
+                    <label for="Leite">Copo de Leite</label><br>
+                    <input type="number" name="Leite" id="Leite" value= 0><br>
+                    <label for="Valor9">Valor R$5,00</label>
+                    <input type="hidden" id="Valor9" name="Valor9" value="5"><br>
+
+                    <label for="Vitamina">Vitamina</label><br>
+                    <input type="number" name="Vitamina" id="Vitamina" value= 0><br>
+                    <label for="Valor10">Valor R$11,00</label>
+                    <input type="hidden" id="Valor10" name="Valor10" value="11"><br>
+
+                    <label for="Iogurte">Iogurte</label><br>
+                    <input type="number" name="Iogurte" id="Iogurte" value= 0><br>
+                    <label for="Valor11">Valor R$4,00</label>
+                    <input type="hidden" id="Valor11" name="Valor11" value="4"><br>
+
+                    <label for="Pingado">Pingado</label><br>
+                    <input type="number" name="Pingado" id="Pingado" value= 0><br>
+                    <label for="Valor12">Valor R$7,00</label>
+                    <input type="hidden" id="Valor12" name="Valor12" value="7"><br>
+
+                    <label for="LeiteNescau">Leite com Nescau</label><br>
+                    <input type="number" name="LeiteNescau" id="LeiteNescau" value= 0><br>
+                    <label for="Valor13">Valor R$6,00</label>
+                    <input type="hidden" id="Valor13" name="Valor13" value="6"><br>
+
+                    <label for="SucoAgua">Suco com Água</label><br>
+                    <input type="number" name="SucoAgua" id="SucoAgua" value= 0><br>
+                    <label for="Valor14">Valor R$7,00</label>
+                    <input type="hidden" id="Valor14" name="Valor14" value="7"><br>
+                </div>
+
+                <div id="Produtos2">
+                    <label for="SucoLeite">Suco com Leite</label><br>
+                    <input type="number" name="SucoLeite" id="SucoLeite" value= 0><br>
+                    <label for="Valor15">Valor R$8,00</label>
+                    <input type="hidden" id="Valor15" name="Valor15" value="8"><br>
+
+                    <label for="Bauru">Bauru</label><br>
+                    <input type="number" name="Bauru" id="Bauru" value= 0><br>
+                    <label for="Valor16">Valor R$6,00</label>
+                    <input type="hidden" id="Valor16" name="Valor16" value="6"><br>
+
+                    <label for="CachorroQuente">Cachorro Quente</label><br>
+                    <input type="number" name="CachorroQuente" id="CachorroQuente" value= 0><br>
+                    <label for="Valor17">Valor R$6,00</label>
+                    <input type="hidden" id="Valor17" name="Valor17" value="6"><br>
+
+                    <label for="Misto">Misto Quente</label><br>
+                    <input type="number" name="Misto" id="Misto" value= 0><br>
+                    <label for="Valor18">Valor R$8,00</label>
+                    <input type="hidden" id="Valor18" name="Valor18" value="8"><br>
+
+                    <label for="PaoOvo">Pão com ovo</label><br>
+                    <input type="number" name="PaoOvo" id="PaoOvo" value= 0><br>
+                    <label for="Valor19">Valor R$9,00</label>
+                    <input type="hidden" id="Valor19" name="Valor19" value="9"><br>
+
+                    <label for="PaoManteiga">Pão com manteiga</label><br>
+                    <input type="number" name="PaoManteiga" id="PaoManteiga" value= 0><br>
+                    <label for="Valor20">Valor R$5,00</label>
+                    <input type="hidden" id="Valor20" name="Valor20" value="5"><br>
+
+                    
+                    <label for="PaoChapa">Pão na chapa</label><br>
+                    <input type="number" name="PaoChapa" id="PaoChapa" value= 0><br>
+                    <label for="Valor21">Valor R$7,00</label>
+                    <input type="hidden" id="Valor21" name="Valor21" value="7"><br>
+
+                </div>
+
+                <div id="Produtos3">
+                    <label for="XBurguer">X-Burguer</label><br>
+                    <input type="number" name="XBurguer" id="XBurguer" value= 0><br>
+                    <label for="Valor22">Valor R$9,00</label>
+                    <input type="hidden" id="Valor22" name="Valor22" value="9"><br>
+
+                    <label for="XSalada">X-Salada</label><br>
+                    <input type="number" name="XSalada" id="XSalada" value= 0><br>
+                    <label for="Valor23">Valor R$12,00</label>
+                    <input type="hidden" id="Valor23" name="Valor23" value="12"><br>
+
+                    <label for="XBacon">X-Bacon</label><br>
+                    <input type="number" name="XBacon" id="XBacon" value= 0><br>
+                    <label for="Valor24">Valor R$15,00</label>
+                    <input type="hidden" id="Valor24" name="Valor24" value="15"><br>
+
+                    <label for="XFrango">X-Frango</label><br>
+                    <input type="number" name="XFrango" id="XFrango" value= 0><br>
+                    <label for="Valor25">Valor R$14,00</label>
+                    <input type="hidden" id="Valor25" name="Valor25" value="14"><br>
+
+                    <label for="XTudo">X-Tudo</label><br>
+                    <input type="number" name="XTudo" id="XTudo" value= 0><br>
+                    <label for="Valor26">Valor R$20,00</label>
+                    <input type="hidden" id="Valor26" name="Valor26" value="20"><br>
+
+                    <label for="Pastel">Pastel</label><br>
+                    <input type="number" name="Pastel" id="Pastel" value= 0><br>
+                    <label for="Valor27">Valor R$8,00</label>
+                    <input type="hidden" id="Valor27" name="Valor27" value="8"><br>
+
+                    <label for="Beirutes">Beirutes</label><br>
+                    <input type="number" name="Beirutes" id="Beirutes" value= 0><br>
+                    <label for="Valor28">Valor R$21,00</label>
+                    <input type="hidden" id="Valor28" name="Valor28" value="21"><br>
+                </div>
+
+                <div id="Produtos4">
+                    <label for="Panquecas">Panquecas</label><br>
+                    <input type="number" name="Panquecas" id="Panquecas" value= 0><br>
+                    <label for="Valor29">Valor R$14,00</label>
+                    <input type="hidden" id="Valor29" name="Valor29" value="14"><br>
+
+                    <label for="Omelete">Omelete</label><br>
+                    <input type="number" name="Omelete" id="Omelete" value= 0><br>
+                    <label for="Valor30">Valor R$3,00</label>
+                    <input type="hidden" id="Valor30" name="Valor30" value="3"><br>
+                </div>
+
+                <div id="Botao1">
+                    <input type="button" value="comprar" name="comprar" id="comprar" onclick="Venda()">
+                </div>
+            </form>
+        </main>
+        <aside>
+            <div id="links3">
+                <h4>Volte para a página principal</h4>
+                <a href="menu.html">Página Principal</a>
+
+                <h4>Faça você também os nossos pães!</h4>
+                <a href="receita.html">Receita dos pães</a><br>
+
+                <h4>Participe do nosso sorteio!</h4>
+                <a href="sorteio.html">Sorteio de cesta de café da manhã</a><br>
+                
+                <h4>Conheça nossa pizzaria!</h4>
+                <a href="pizzaria.html">Nossa Pizzaria</a><br>
+                
+                <h4>Veja a nossa loja!</h4>
+                <a href="tour.html">Tour pela nossa loja</a><br>
+            </div>
+        </aside>
+        <footer>
+            <h3>COPYRIGHT © PADARIA PANEHAUS. TODOS OS DIREITOS RESERVADOS.</h3>
+            <div id="links2"> 
+                <a href="suporte.html">Suporte</a>
+                <a href="contatos.html">Contatos</a> 
+                <a href="lojas.html">Nossas Lojas</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

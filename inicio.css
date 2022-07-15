@@ -1,0 +1,178 @@
+#tituloinicial{
+    background-color: burlywood;
+    text-align: center;
+}
+#Logando{
+    position: absolute;
+    top: 220px;
+    left: 650px;
+    background-color: brown;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+html{
+    background-color: burlywood;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 25vh 70vh 15vh;
+    grid-template-areas: "header header"
+                "aside main"
+                "footer footer"
+}
+header{
+    background-color: brown;
+    grid-area: header;
+}
+main{
+    background-color: burlywood;
+    grid-area: main;
+}
+aside{
+    background-color: khaki;
+    grid-area: aside;
+}
+footer{
+    background-color: brown;
+    grid-area: footer;
+}
+#NomePadaria{
+    position: absolute;
+    top: 21px;
+    left: 550px;
+    color: blanchedalmond;
+    font-size: x-large;
+}
+#links1{
+    position: absolute;
+    top: 43px;
+    left: 1220px;
+}
+#links2{
+    position: absolute;
+    top: 783px;
+    left: 934px;
+}
+#links3{
+    position: absolute;
+    top: 195px;
+    left: 20px;
+}
+#NomeCardapio
+{
+    text-align: center;
+}
+#Cardapio{
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    left: 490px;
+}
+#Cardapio2{
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    left: 1150px;
+}
+#NomeVendas{
+    text-align: center;
+}
+#Produtos{
+    position: absolute;
+    top: 285px;
+    left: 600px;
+}
+#Produtos2{
+    position: absolute;
+    top: 285px;
+    left: 800px;
+}
+#Produtos3{
+    position: absolute;
+    top: 285px;
+    left: 1000px;
+}
+#Produtos4{
+    position: absolute;
+    top: 285px;
+    left: 1200px;
+}
+#Botao1{
+    position: absolute;
+    top: 700px;
+    left: 1300px;
+}
+#NumeroContato{
+    text-align: center;
+}
+#NContato{
+    font-size: x-large;
+}
+#NossoSuporte{
+    text-align: center;
+}
+#InfSuporte{
+    font-size: xx-large;
+}
+#imagem2{
+    position: absolute;
+    top: 205px;
+    left: 730px;
+}
+#imagem4{
+    position: absolute;
+    top: 205px;
+    left: 1000px;
+}
+#imagem5{
+    position: absolute;
+    top: 435px;
+    left: 1000px;
+}
+#NomeReceita{
+    text-align: center;
+}
+#Receita1{
+    font-size: large;
+}
+#Receita2{
+    font-size: large;
+}
+#NomeDelivery{
+    text-align: center;
+}
+#InfDelivery{
+    font-size: xx-large;
+}
+#NomeLojas{
+    text-align: center;
+}
+#EndLojas{
+    font-size: xx-large;
+}
+#NomeSorteio{
+    text-align: center;
+}
+#InfSorteio{
+    font-size: 1.3cm;
+}
+#Pizzaria{
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    left: 490px;
+}
+#NomePizzaria{
+    text-align: center;
+}
+#AvisoPizzaria{
+    position: absolute;
+    top: 490px;
+    left: 400px;
+}
